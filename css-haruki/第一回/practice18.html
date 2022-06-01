@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS練習問題 | TECH PJIN</title>
+        <meta charset="utf-8">
+        <meta name="description" content="CSS練習問題">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--[if lt IE 9]>
+            <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+        .content{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color:#fcfcfc;
+            -webkit-border-radius: 10px;  /* Safari,Google Chrome用 */  
+               -moz-border-radius: 10px;  /* Firefox用 */  
+                    border-radius: 10px;  /* CSS3草案 */  
+ 
+        }
+        section{
+            width: 550px;
+        }
+        .continer {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: left;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="continer">
+            <section id="page1">
+                <div class="lead">確率的勾配降下法</div>
+                <div class="content">
+                    勾配降下法は統計学や機械学習で多く使われています。
+                    特に機械学習というのは基本的に何かしらの関数を最小化（最大化）する問題を数値解析的に解くことに帰結する場合が多いです。
+                    なので、基本的にはひたすら微分して0となるところを探す問題です。微分して0。
+                    で、その微分して0となる値は何か、をプログラムで解く場合に重要になるのがこの勾配降下法です。
+                    幾つか勾配法にも種類がありますがここでは最急降下法、確率的勾配降下法の２つを扱います。
+                </div>
+            </section>
+            <section id="page2">
+                <div class="lead">誤差逆伝搬法</div>
+                <div class="content">
+                    勾配降下法に基づいた各層各パラメータの更新量を、上位層側から得る値を利用した計算により得る方法である。
+                    従って、出力層での誤差関数等の値からパラメータの勾配降下量を計算し、入力層方向へ各層各パラメータの更新量を決める値を計算しながら逆方向へ伝搬させていく。
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
