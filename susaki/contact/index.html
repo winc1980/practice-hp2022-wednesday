@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせ – Dummy Cafe</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../practice3.html"><img src="../images/common/logo-dummy-cafe.png" alt="Dummy Cafe" width="160" height="30"></a>Dummy Cafe</h1>
+        <nav>
+            <h2>サイト内メニュー</h2>
+            <ul>
+                <li><a href="../practice3.html">ホーム</a></li>
+                <li><a href="../philosophy/index.html">こだわり</a></li>
+                <li><a href="../menu/index.html">メニュー</a></li>
+                <li><a href="../recruit/index.html">採用情報</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<h1>お問い合わせ</h1>
+
+<p>下記のフォームよりお問い合わせ下さい。</p>
+
+<form action="receive.html" method="post">
+    <dl>
+        <dt>お問い合わせ種別</dt>
+        <dd>
+            <select name="type">
+                <option value="ご予約について">ご予約について</option>
+                <option value="お店について">お店について</option>
+                <option value="メニューについて">メニューについて</option>
+                <option value="採用について">採用について</option>
+                <option value="その他">その他</option>
+            </select>
+        </dd>
+        <dt>お名前</dt>
+        <dd>
+            <input type="text" name="your_name">
+        </dd>
+        <dt>メールアドレス</dt>
+        <dd>
+            <input type="text" name="your_mail">
+        </dd>
+        <dt>お問い合わせ内容</dt>
+        <dd>
+            <textarea name="inquiry" cols="80" rows="8"></textarea>
+        </dd>
+    </dl>
+    <input type="submit" value="送信する">
+</form>
+    </main>
+<footer>
+    <section>
+        <h2>関連情報</h2>
+    
+        <ul>
+            <li><a href="#">スタッフブログ</a></li>
+            <li><a href="../recruit/index.html">スタッフ募集</a></li>
+        </ul>
+        <ul>
+            <li><a href="../practice3.html">ホーム</a></li>
+            <li><a href="../philosophy/index.html">こだわり</a></li>
+            <li><a href="../menu/index.html">メニュー</a></li>
+            <li><a href="../recruit/index.html">採用情報</a></li>
+            <li><a href="../contact/index.html">お問い合わせ</a></li>
+        </ul>
+    </section>
+    
+    <aside>
+        <address>
+            〒129-0816 <br>
+            東京都架空区架空6-1-1
+        </address>
+    
+        <p>
+            <small>
+                &copy; 2016 Dummy Cafe
+            </small>
+        </p>
+    </aside>
+</footer>
+
+</body>
+</html>
